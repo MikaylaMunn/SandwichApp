@@ -1,0 +1,19 @@
+<h1>Sandwich Home</h1>
+
+<h3>Ingredients</h3>
+
+<ul>
+    {% comment %} for each ingredient in ingredients from views.py {% endcomment %}
+    {% for ingredient in ingredients %}
+    <li>
+        {% comment %} create a url for this ingredient with ingredient type {% endcomment %}
+        <a href="{% url 'ingredients_list' ingredient %}">{{ ingredient }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<p>Click the button if you are hungry!</p>
+
+<form action="{% url 'sandwich_generator' %}">
+    <input type="submit" value="Make a sandwich!" />
+</form>
