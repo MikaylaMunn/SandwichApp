@@ -1,18 +1,18 @@
 # Sandwich Maker
 
 ## To Run this App:
-Create a virtual environment
-    ⋅⋅*```python -m venv venv```
-Activate the virtual environment depending on computer type
-    **For Mac or Unix
-    ⋅⋅*```source venv/bin/activate```
-    **For Windows
-    ⋅⋅*```path\to\venv\Scripts\activate.bat```
-You need to install what is in the requirements.txt
-    ⋅⋅*```pip install -r requirements.txt```
-Finally, to run the app
-    ⋅⋅*```cd sandwich_box```
-   ⋅⋅* ```python manage.py runserver```
+Create a virtual environment</br>
+    *```python -m venv venv```</br>
+Activate the virtual environment depending on computer type</br>
+    1. For Mac or Unix</br>
+   * ```source venv/bin/activate```</br>
+    2. For Windows</br>
+    *```path\to\venv\Scripts\activate.bat```</br>
+You need to install what is in the requirements.txt</br>
+    *```pip install -r requirements.txt```</br>
+Finally, to run the app</br>
+    *```cd sandwich_box```</br>
+    *```python manage.py runserver```</br>
 ## Purpose:
  This is a basic sandwich app to demnostrate the hooking up of the front end and back end.
 ## Roadblocks
